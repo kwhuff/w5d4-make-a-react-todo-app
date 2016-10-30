@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.tastText {
+  width: 400px;
+}
+
+body {
+  background-color: white;
+}
+
+.addField {
+  padding-top: 5px;
+  /*width: 80%;*/
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #0a2e36;
+}
+
+header {
+  /*background-color: #0a2e36;*/
+}
+
+.taskText {
+  width: 400px;
+  margin-bottom: 25px;
+  height: 33px;
+}
+#todos{
+  font-size: 30px;
+  padding-left: 52px;
+  padding-right: 52px;
+  margin-top: 0px;
+  text-decoration: underline;
+  background-color: rgb(226, 254, 113);
+  color: black;
+  transition: 1.5s ease;
+  font-family: 'Covered By Your Grace', cursive;
+}
+.toBeDone{
+  background-color: rgb(226, 254, 113);
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  word-wrap: break-word;
+  transition: 1.5s ease;
+  height: 500px;
+}
+.toBeDone:hover{
+  transform: translateY(-10px);
+}
+.mainTitle{
+  color: white;
+}
+.dataEffects1{
+  transition: 1.5s ease;
+}
+.dataEffects1:hover{
+  font-size: 35px;
+  transform: rotateX(360deg)
+}
